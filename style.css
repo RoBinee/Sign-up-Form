@@ -28,7 +28,7 @@ a{
     color:var(--white-clr)
 }
 
-.intro-box{
+.intro-section{
     flex: 1;
     background: url(https://images.unsplash.com/photo-1494386346843-e12284507169?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGhhbmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60) center/cover no-repeat;
     display: flex;
@@ -44,10 +44,10 @@ a{
     font-size: 1.35rem;
     padding: 20px;
 }
-.intro-box > p {
+.intro-section > p {
     color: var(--white-clr)
 }
-.form-box{
+.form-section{
     background: var(--white-bcg-clr);
     flex: 2;
 }

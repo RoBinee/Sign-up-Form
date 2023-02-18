@@ -6,6 +6,7 @@
 :root{
     --white-clr: #fff;
     --gray-clr: #808080;
+    --white-bcg-clr:#F3F3F3;
 }
 
 *{
@@ -47,6 +48,6 @@ a{
     color: var(--white-clr)
 }
 .form-box{
-    background: skyblue;
+    background: var(--white-bcg-clr);
     flex: 2;
 }

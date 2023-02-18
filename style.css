@@ -24,9 +24,6 @@ main{
     width: 100%;
     height: 100vh;
 }
-a{
-    color:var(--white-clr)
-}
 
 .intro-section{
     flex: 1;
@@ -44,9 +41,13 @@ a{
     font-size: 1.35rem;
     padding: 20px;
 }
-.intro-section > p {
+.intro-section p {
     color: var(--white-clr)
 }
+.intro-section a{
+    color:var(--white-clr)
+}
+/* form section css */
 .form-section{
     background: var(--white-bcg-clr);
     flex: 2;

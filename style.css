@@ -81,8 +81,7 @@ main{
 .form-desc i{
     font-weight: 600;
 }
-form{
-}
+
 fieldset{
     background-color: var(--white-clr);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;

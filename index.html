@@ -9,6 +9,7 @@
 </head>
 <body>
 <main>
+    <!-- intro section -->
     <section class="intro-section">
         <div class="intro-desc">
             <p>
@@ -17,6 +18,7 @@
         </div>
         <p>Photo by <a href="https://unsplash.com/photos/SZYreZsJ-fE">Diego PH</a> to Unsplash</p>
     </section>
+    <!-- form section -->
     <section class="form-section">
         <div class="form-desc">
             <h1>Welcome!</h1>
@@ -26,35 +28,37 @@
                Sign up <i>now</i> to get started
             </p>
         </div>
-        <div class="form-box">
-            <form action="http://httpbin.org/post" method="post">
-                <h2>Let's do this!</h2>
-                <div>
-                    <label for="first_name">First Name</label>
-                    <input type="text" id="first_name" name="first_name">
-                </div>
-                <div>
-                    <label for="last_name">Last Name</label>
-                    <input type="text" id="last_name" name="last_name">
-                </div>
-                <div>
-                    <label for="mail">Email</label>
-                    <input type="email" id="mail" name="mail">
-                </div>
-                <div>
-                    <label for="phone_number">Phone Number</label>
-                    <input type="tel" id="phone_number" name="phone_number">
-                </div>
-                <div>
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password">
-                </div>
-                <div>
-                    <label for="confirm_password">Confirm Password</label>
-                    <input type="password" id="confirm_password" name="confirm_password">
-                </div>
+            <form action="http://httpbin.org/post" method="post" class="form-box">
+                <fieldset>
+                    <h2>Let's do this!</h2>
+                    <div>
+                        <label for="first_name">First Name</label>
+                        <input type="text" id="first_name" name="first_name">
+                    </div>
+                    <div>
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name" name="last_name">
+                    </div>
+                    <div>
+                        <label for="mail">Email</label>
+                        <input type="email" id="mail" name="mail">
+                    </div>
+                    <div>
+                        <label for="phone_number">Phone Number</label>
+                        <input type="tel" id="phone_number" name="phone_number">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input class="error" type="password" id="password" name="password">
+                    </div>
+                    <div>
+                        <label for="confirm_password">Confirm Password</label>
+                        <input class="error" type="password" id="confirm_password" name="confirm_password">
+                    </div>
+                </fieldset>
+                <button type="submit" class="submit-btn">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
             </form>
-        </div>
     </section>
 </main>  
 </body>

@@ -111,12 +111,13 @@ fieldset input{
     padding: 3px;
     border-radius: 5px;
 }
-fieldset input:focus{
+input:focus{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-    border: blue;
+    border:1px solid #2A4F87;
+    outline: none;
 }
 .error{
-    border-color: red;
+    border-color: #ff3333;
 }
 
 form > div{

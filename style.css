@@ -11,6 +11,7 @@
     --gray-font-clr:#5A5A5A;
     --light-brdr-clr: #e5e7e8;
     --btn-clr:#354A53;
+    --red-clr:#ff3333;
 }
 
 *{
@@ -115,8 +116,11 @@ input:focus{
     border:1px solid #2A4F87;
     outline: none;
 }
+span[aria-label]{
+    color: var(--red-clr);
+}
 .error{
-    border-color: #ff3333;
+    border-color: var(--red-clr);
 }
 
 form > div{
